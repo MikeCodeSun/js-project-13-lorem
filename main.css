@@ -1,0 +1,59 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 5rem 0;
+  background-color: lemonchiffon;
+  min-height: 100vh;
+}
+
+.form {
+  width: 80vw;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.form h2 {
+  text-transform: capitalize;
+}
+
+.form-input {
+  background-color: lemonchiffon;
+  border: 1px solid lightgrey;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  width: 4rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.3rem 0.6rem;
+  color: white;
+  background-color: rgba(236, 40, 6, 1);
+  border-radius: 6px;
+  border: none;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.6s linear all;
+}
+.btn:hover {
+  background-color: rgba(236, 40, 6, 0.7);
+}
+
+.text-container {
+  width: 90vw;
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+.text {
+  text-transform: capitalize;
+  margin: 1rem 0;
+  letter-spacing: 1px;
+}
